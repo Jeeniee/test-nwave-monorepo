@@ -1,0 +1,7 @@
+{
+  "name": "real-monorepo-yarn-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
