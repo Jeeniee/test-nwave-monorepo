@@ -1,7 +1,12 @@
 {
-  "name": "real-monorepo-yarn-workspace",
+  "name": "test-nwave-monorepo",
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
 }
