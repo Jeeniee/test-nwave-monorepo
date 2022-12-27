@@ -1,7 +1,6 @@
 {
-  "name": "project-a",
+  "name": "test-nwave",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -10,6 +9,7 @@
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
+    "big-number": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -21,6 +21,20 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jeeniee/test-nwave-monorepo"
+  },
+  "keywords": [
+    "test",
+    "nWay",
+    "random-number"
+  ],
+  "author": {
+    "name": "Jeenie",
+    "email": "devJeenie@gmail.com",
+    "url": "https://velog.io/@devjeenie/CICD-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%B0%B0%ED%8F%AC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-feat.-%EB%AA%B0%EB%9D%BC%EB%8F%84-%EB%90%98%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9C%A0%ED%98%B9"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +53,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "license": "MIT"
 }
