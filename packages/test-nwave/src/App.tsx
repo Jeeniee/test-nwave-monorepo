@@ -1,6 +1,7 @@
 import "./App.css";
 import { randomNumber } from "./utils/randomNumber";
 import { useState } from "react";
+import { TestButton } from "./components/TestButton";
 
 function App() {
   const [name, setName] = useState<string>("");
@@ -16,7 +17,7 @@ function App() {
       <ul>
         <li>import {`randomNumber`} from "@nWave/project-a"</li>
         <input value={name} onChange={(event) => setName(event.target.value)} />
-        <button onClick={() => handleClick(name)}>추첨하기</button>
+        <TestButton onClick={() => handleClick(name)}>추첨하기</TestButton>
         <p>결과 : {result}</p>
       </ul>
     </div>
